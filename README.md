@@ -5,7 +5,7 @@ Galvanize capstone project for classifying human activity of daily living using 
 Innovative approaches to recognize activities of daily living (ADL) is essential input part for development of more interactive human-computer applications. Methods for understanding Human Activity Recognition (HAR) are developed by interpreting attributes derived from motion, location, physiological signals and environmental information. Project goal is to propose a machine learning method to perform ADL classification of published data set (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphone). Data contains recordings from a group of individuals performing set of ADL (standing, sitting, laying, walking, walking upstairs and walking downstairs) while wearing a waist-mounted smart-phone with embedded internal sensors (accelerometers, gyroscopes and magnetometers). Effectiveness of machine learning method will be performed by comparing recognition accuracy of machine learning method with published Multi Class Hardware-Friendly Support Vector Machine (MC-HF-SVM) recognition accuracy.
 
 ## Method:
-Data (10299 samples with ADL balanced 561 features)  will be partitioned into training and test set in proportion 70% and 30%. The partition will be randomized. The training data will be employed for training different classifiers such as Support Vector Machine (SVM) , Random Forrest (RF) and Boosting (AdaBoost). Cross validation will be employed to test classifiers performance and Yelp Metric Optimization Engine (MOE) for finding optimal parameters. Overall accuracy, recall and precision will be measured for determining best classifier. 
+Data (10299 samples with ADL balanced 561 features)  is partitioned into training and test set in proportion 70% and 30%. The partition is randomized. The training data is employed for training different classifiers such as Support Vector Machine (SVM) , Random Forrest (RF) and eXtreme Gradient Boosting (XGBoost). Cross validation with grid search and Yelp Metric Optimization Engine (MOE) are employed for finding optimal classifier parameters. Overall accuracy, recall and precision is measured for determining best classifier. 
 
 ## Data:
 1. “Human Activity Recognition Using Smartphones Data Set “ - UCI Machine Learning Depository; 
@@ -25,7 +25,7 @@ http://www.jucs.org/jucs_19_9/energy_efficient_smartphone_based/jucs_19_09_1295_
 3. “Introducing MOE: Metric Optimization Engine; a new open source, machine learning service for optimal experiment design” - posted by DR. Scott Clark 
 http://engineeringblog.yelp.com/2014/07/introducing-moe-metric-optimization-engine-a-new-open-source-machine-learning-service-for-optimal-ex.html
 
-4. “dmlc XGBoost eXtrreme Gradient Boosting - An optimized general purpose gradient boosting library."
+4. “dmlc XGBoost eXtreme Gradient Boosting - An optimized general purpose gradient boosting library."
 https://github.com/dmlc/xgboost
 
 
