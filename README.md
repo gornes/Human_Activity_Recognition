@@ -8,7 +8,7 @@ Innovative approaches to recognize activities of daily living (ADL) is essential
 Data (10299 samples with ADL balanced 561 features) is partitioned into training and test set in proportion 70% and 30%. The partition is randomized. The training data is employed for training different classifiers such as Support Vector Machine (SVM) , Random Forrest (RF) and eXtreme Gradient Boosting (XGBoost). Cross validation with grid search and Yelp Metric Optimization Engine (MOE) are employed for finding optimal classifier parameters. Overall accuracy, recall and precision is measured for determining best classifier. 
 
 ## Data:
-1. “Human Activity Recognition Using Smartphones Data Set “ - UCI Machine Learning Depository 
+1. “Human Activity Recognition Using Smartphones Data Set “ - UCI Machine Learning Repository 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Tools:
