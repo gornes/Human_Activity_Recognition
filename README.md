@@ -22,10 +22,13 @@ http://www.icephd.org/sites/default/files/IWAAL2012.pdf
 2. “Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic” - Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz 
 http://www.jucs.org/jucs_19_9/energy_efficient_smartphone_based/jucs_19_09_1295_1314_anguita.pdf
 
-3. “Introducing MOE: Metric Optimization Engine; a new open source, machine learning service for optimal experiment design” - posted by DR. Scott Clark 
+3. "Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments" - Jorge L. Reyes-Ortiz, Alessandro Ghio, Davide Anguita,Xavier Parra, Joan Cabestany, Andreu Catala
+https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2013-11.pdf
+
+4. “Introducing MOE: Metric Optimization Engine; a new open source, machine learning service for optimal experiment design” - posted by DR. Scott Clark 
 http://engineeringblog.yelp.com/2014/07/introducing-moe-metric-optimization-engine-a-new-open-source-machine-learning-service-for-optimal-ex.html
 
-4. “dmlc XGBoost eXtreme Gradient Boosting - An optimized general purpose gradient boosting library."
+5. “dmlc XGBoost eXtreme Gradient Boosting - An optimized general purpose gradient boosting library."
 https://github.com/dmlc/xgboost
 
 
